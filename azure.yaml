@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: ade-azd-integration
+platform:
+    type: devcenter
+    config:
+        catalog: reliable-web-app-catalog
+        environmentDefinition: blueballenv
+        name: dc-devcenter
+        project: blueball
